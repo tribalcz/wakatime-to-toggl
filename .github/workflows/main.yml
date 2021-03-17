@@ -9,7 +9,7 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: 12
-            - run: npx wakatime-to-toggl -w "$WAKATIME_API_KEY" -t "$TOGGL_API_KEY"
+            - run: npx wakatime-to-toggl -w "$05f11a57-abf8-4574-81f8-72b3af4135f1" -t "$c7933c000194c98ad50f8771256278f1"
               env:
                   TOGGL_API_KEY: '${{ secrets.TOGGL_API_KEY }}'
                   WAKATIME_API_KEY: '${{ secrets.WAKATIME_API_KEY }}'
